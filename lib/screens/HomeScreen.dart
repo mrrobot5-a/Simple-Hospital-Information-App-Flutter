@@ -50,7 +50,7 @@ class HomeView extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.all(8.0),
               child: Button(
-                text: "Chat With Dr. Sayed",
+                text: "💬 Chat With Dr. Ahmed",
                 color: Color(0xff4cb151),
               ),
             ),
