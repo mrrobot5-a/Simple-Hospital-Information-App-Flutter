@@ -44,7 +44,8 @@ class HomeView extends StatelessWidget {
             // backgroundImage: NetworkImage(url),
           ),
           Text(
-            "Hello Again",
+            //i will change this later
+            "Hello from Github",
             style: TextStyle(
               fontSize: 24,
               fontWeight: FontWeight.bold,
