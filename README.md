@@ -10,4 +10,4 @@ Material Design: Follows Material Design guidelines for a polished and intuitive
 
 
 #Screens
-<img scr="https://github.com/user-attachments/assets/014a7fc4-8143-4ad8-a666-c90d21750e68">
+<img scr="https://github.com/user-attachments/assets/014a7fc4-8143-4ad8-a666-c90d21750e68" width="300">
