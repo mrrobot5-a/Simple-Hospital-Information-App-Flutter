@@ -27,7 +27,9 @@ class ReviewsScreen extends StatelessWidget {
         leading: Padding(
           padding: const EdgeInsets.all(16.0),
           child: IconButton(
-            onPressed: () {},
+            onPressed: () {
+              Navigator.pop(context);
+            },
             icon: Icon(
               Icons.arrow_back_ios,
               color: Colors.black,
