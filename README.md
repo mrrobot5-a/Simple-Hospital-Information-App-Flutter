@@ -11,6 +11,5 @@ Material Design: Follows Material Design guidelines for a polished and intuitive
 
 # Screens
 <img src="https://github.com/user-attachments/assets/a930b409-9806-40a2-81e0-87866b3dcc1a" width="300">
-<img src="https://github.com/user-attachments/assets/77849775-2b4a-4e41-9f6f-c7e52e4532d5
-" width="300">
-<img src="https://github.com/user-attachments/assets/a930b409-9806-40a2-81e0-87866b3dcc1a" width="300">
+<img src="https://github.com/user-attachments/assets/77849775-2b4a-4e41-9f6f-c7e52e4532d5" width="300">
+<img src="https://github.com/user-attachments/assets/1c2084e4-e489-421d-a580-1b44c170129f" width="300">
