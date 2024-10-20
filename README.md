@@ -1,16 +1,9 @@
-# second_project
+# Doctor Information App
 
-A new Flutter project.
+Overview
+The Doctor Information App is a Flutter-based mobile application designed to provide users with essential information about a hospital, including contact details, operational hours, and interactive features like chat support and reviews. The app is user-friendly, ensuring that users can easily access important information and communicate with hospital staff.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Technologies Used
+Flutter: The app is built using the Flutter framework for cross-platform mobile development.
+Dart: The programming language used for building the app.
+Material Design: Follows Material Design guidelines for a polished and intuitive user experience.
