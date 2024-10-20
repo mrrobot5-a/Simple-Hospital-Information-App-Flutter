@@ -5,8 +5,11 @@ import 'dart:math';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
+import 'package:second_project/widgets/TextHeading.dart';
 
 import '../widgets/HeaderOfHomeView.dart';
+import 'Chat.dart';
+import 'ReviewsScreen.dart';
 
 class HomeView extends StatelessWidget {
   const HomeView({
@@ -50,6 +53,12 @@ class HomeView extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.all(8.0),
               child: Button(
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => Chat()),
+                  );
+                },
                 text: "💬 Chat With Dr. Ahmed",
                 color: Color(0xff4cb151),
               ),
@@ -57,7 +66,13 @@ class HomeView extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.all(8.0),
               child: Button(
-                text: "Book an Appointment",
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => ReviewsScreen()),
+                  );
+                },
+                text: "Check Our Reviews",
                 color: Color(0xff265ed7),
               ),
             ),
@@ -71,9 +86,12 @@ class HomeView extends StatelessWidget {
 class Button extends StatelessWidget {
   final String text;
   final Color color;
+  final VoidCallback onPressed;
+
   const Button({
     required this.color,
     required this.text,
+    required this.onPressed,
     super.key,
   });
 
@@ -81,7 +99,14 @@ class Button extends StatelessWidget {
   Widget build(BuildContext context) {
     return Center(
       child: GestureDetector(
-        onTap: () {},
+        onTap: onPressed,
+        // Navigator.push(
+        //   context,
+        //   MaterialPageRoute(
+        //     builder: (context) => ReviewsScreen(),
+        //   ),
+        // );
+
         child: Container(
           height: 60,
           decoration: BoxDecoration(
@@ -94,29 +119,6 @@ class Button extends StatelessWidget {
                     fontWeight: FontWeight.w500,
                     color: Colors.white)),
           ),
-        ),
-      ),
-    );
-  }
-}
-
-class TextHeading extends StatelessWidget {
-  final String text;
-  const TextHeading({
-    required this.text,
-    super.key,
-  });
-
-  @override
-  Widget build(BuildContext context) {
-    return Padding(
-      padding: const EdgeInsets.only(top: 8.0, left: 8.0),
-      child: Text(
-        text,
-        style: TextStyle(
-          fontFamily: 'Flux',
-          fontSize: 23,
-          fontWeight: FontWeight.w500,
         ),
       ),
     );
