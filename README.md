@@ -8,6 +8,9 @@ Flutter: The app is built using the Flutter framework for cross-platform mobile 
 Dart: The programming language used for building the app.
 Material Design: Follows Material Design guidelines for a polished and intuitive user experience.
 
+# How to Use:
+1. Clone the repository:
+   ```https://github.com/mrrobot5-a/Simple-Hospital-Information-App-Flutter.git
 
 # Screens
 <img src="https://github.com/user-attachments/assets/542cee5f-bea5-4117-9f53-b145f313a623" width="300">
