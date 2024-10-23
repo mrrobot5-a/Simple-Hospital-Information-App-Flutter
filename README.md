@@ -10,7 +10,8 @@ Material Design: Follows Material Design guidelines for a polished and intuitive
 
 # How to Use:
 1. Clone the repository:
-   `https://github.com/mrrobot5-a/Simple-Hospital-Information-App-Flutter.git
+ ```bash
+   https://github.com/mrrobot5-a/Simple-Hospital-Information-App-Flutter.git
 
 # Screens
 <img src="https://github.com/user-attachments/assets/542cee5f-bea5-4117-9f53-b145f313a623" width="300">
